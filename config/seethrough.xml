@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<screensaver name="seethrough" _label="Seethrough">
+
+  <command arg="-root"/>
+
+  <number id="updatesecs" type="spinbutton" arg="-updatesecs %"
+          _label="Seconds between updates"
+          low="1" high="30" default="1"/>
+
+  <xscreensaver-image />
+
+  <boolean id="showfps" _label="Show frame rate" arg-set="-fps"/>
+
+  <xscreensaver-updater />
+
+  <_description>
+Shows the underlying screen.
+
+Written by Jim Hunziker; 2016.
+  </_description>
+</screensaver>
